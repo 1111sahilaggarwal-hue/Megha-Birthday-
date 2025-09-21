@@ -4,12 +4,27 @@
   <title>Happy Birthday Megha 🎂</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      min-height: 150vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       background-image: url("photo.jpg");
       background-size: 100% 100%;
-      background-attachment: fixed;
-      text-align: center;
-      color: white;
-      font-family: Arial, sans-serif;
+      position:relative
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
     }
     img {
       margin-top: 50px;
@@ -21,6 +36,12 @@
       font-size: 50px;
       margin-top: 20px;
       text-shadow: 2px 2px 4px black;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 3px black;
     }
     button {
       margin-top: 20px;
@@ -36,14 +57,14 @@
 </head>
 <body>
    <h1>🎉 Happy Birthday Megha 🎉</h1>
-  <font size=5,font <p> Thanks for being the reason I laugh a little louder,<br>
+   <p> Thanks for being the reason I laugh a little louder,<br>
 smile a little more, and eat all the snacks faster 😜🍫.<br>
 May your birthday be as awesome as you think you are! 💖<br>
 On your special day, I just want to remind you how truly special you are.<br>
 May your year ahead be filled with endless happiness, success in everything you do, <br>
  and countless reasons to celebrate.<br>
 You deserve all the love, laughter, and sweet surprises today and always.<br>
-Love you loads, sis! 💕🌸</p></font>
+Love you loads, sis! 💕🌸</p>
   <img src="megha.jpg" alt="Megha's Photo"> 
   <img src="megha birthday.jpeg" alt="Megha's Photo"> 
   <h1> Happy Birthday Cutie!💕</h1>
